@@ -3,17 +3,17 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: #b1f2ff;
 }
 
 #landing-header {
-
     position: relative;
     height: 500px;
     box-shadow: 1px 1px 10px #bbb;
+    background-color: #fff;
 }
 
 #header-content {
-
     position: absolute;
     top: 45%;
     left: 50%;
@@ -32,3 +32,35 @@ body {
     height: 70px;
 }
 
+#posts-list {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 10px #bbb;
+    background-color: #fff;
+}
+
+.post-card {
+    position: relative;
+    width: 40%;
+    margin: 40px;
+    height: 500px;
+    box-shadow: 1px 1px 10px #bbb;
+}
+
+    .post-card:hover {
+        cursor: pointer;
+    }
+
+    .post-card h1 {
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        
+    }
